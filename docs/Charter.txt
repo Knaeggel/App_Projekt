@@ -1,0 +1,42 @@
+Koch/Kauf app(/*WIP*/)
+
+Überblick:
+    Ziel des Projekts:
+        Fertige Android-App, auf welcher Rezepte erstellt und angeschaut werden können, und welche Rezeptideen für vorhandene zutaten anzeigt.
+
+    Zahlende Kunden:
+        (/*WIP )(Werbung ;) )*/)
+
+    Endnutzer:
+        Privatpersonen
+
+    Anforderungen:
+        MUST: Rezepte erstellen
+        MUST: Rezepte anschauen
+        MUST: Rezeptideen basierend auf vorhandenen zutaten
+        NICE TO HAVE: Einkaufsliste
+
+
+    Abnahmekriterien:
+        Benutzerzufrienheit
+
+    Endergebnis:
+        Datenbank, Server-Applikation, Client-Applikation(App)
+
+    Umfang:
+        Von Konzept bis zur Implementierung
+        (/*WIP*/) Serverwartung
+
+    Projektablauf:
+        Arbeit bei vorhandener Zeit
+
+    Risiken:
+        Temmitglieder haben keine Erfahrung mit App-Programmierung
+        Datenverlust
+
+    Klassifizierung
+        Größe: klein
+        Geldmittel: Limitiert
+        Zeit: Limitiert
+        Inhalt: Optimieren
+        Erfahrung: Keine erfahrung mit der Entwichlung einer Android-App
