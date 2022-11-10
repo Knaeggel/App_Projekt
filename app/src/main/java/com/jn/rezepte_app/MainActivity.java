@@ -58,9 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         text.setText("Hello HS");
 
-        b1 = findViewById(R.id.button1);
-        b2 = findViewById(R.id.button2);
-        b3 = findViewById(R.id.button3);
+        b1 = findViewById(R.id.button);
+        b2 = findViewById(R.id.button1);
+        b3 = findViewById(R.id.button2);
 
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
@@ -89,16 +89,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
 
         switch (view.getId()) {
+            case R.id.button:
+                text.setText("Button 0");
+                break;
+
             case R.id.button1:
                 text.setText("Button 1");
                 break;
 
             case R.id.button2:
                 text.setText("Button 2");
-                break;
-
-            case R.id.button3:
-                text.setText("Button 3");
                 break;
 
 
