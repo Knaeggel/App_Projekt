@@ -26,6 +26,18 @@ public class HomeFragment extends Fragment {
 
         final TextView textView = binding.textHome;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+        binding.button.setOnClickListener((e) -> {
+            binding.text.setText("Hello");
+        });
+        binding.button1.setOnClickListener((e) -> {
+            binding.text.setText("Hello1");
+        });
+        binding.button2.setOnClickListener((e) -> {
+            binding.text.setText("Hello2");
+        });
+
+
         return root;
     }
 

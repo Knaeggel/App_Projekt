@@ -18,13 +18,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.jn.rezepte_app.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
-    private Button b1,b2,b3;
-    private TextView text;
+    //private Button b1,b2,b3;
+    //private TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,17 +54,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
-        text = findViewById(R.id.text);
-
-        text.setText("Hello HS");
-
-        b1 = findViewById(R.id.button);
-        b2 = findViewById(R.id.button1);
-        b3 = findViewById(R.id.button2);
-
-        b1.setOnClickListener(this);
-        b2.setOnClickListener(this);
-        b3.setOnClickListener(this);
+        //text = findViewById(R.id.text);
+        //text.setText("Hello HS");
+        //b1 = findViewById(R.id.button);
+        //b2 = findViewById(R.id.button1);
+        //b3 = findViewById(R.id.button2);
+        //b1.setOnClickListener(this);
+        //b2.setOnClickListener(this);
+        //b3.setOnClickListener(this);
 
     }
 
@@ -84,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 || super.onSupportNavigateUp();
     }
 
-
+/*
     @Override
     public void onClick(View view) {
 
@@ -100,12 +97,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button2:
                 text.setText("Button 2");
                 break;
-
-
         }
-
-
     }
+
+*/
 
 
 }
