@@ -26,6 +26,17 @@ public class SlideshowFragment extends Fragment {
 
         final TextView textView = binding.textSlideshow;
         slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+        binding.button0.setOnClickListener((e) -> {
+            binding.textSlideshow.setText("Hello");
+        });
+        binding.button1.setOnClickListener((e) -> {
+            binding.textSlideshow.setText("Hello1");
+        });
+        binding.button2.setOnClickListener((e) -> {
+            binding.textSlideshow.setText("Hello2");
+        });
+
         return root;
     }
 
