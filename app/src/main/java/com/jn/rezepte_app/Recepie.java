@@ -2,15 +2,27 @@ package com.jn.rezepte_app;
 
 import java.util.List;
 
+/**
+ * maybe als lib
+ */
 public class Recepie {
     private String recepieName;
     private double valuation;
     private int portion;
 
-    private List<String> ingredients;
+    private List<Ingridient> ingredients;
     private List<String> comments;
 
 
+    public Recepie() {
+        this.ingredients = null;
+        this.comments = null;
+    }
+
+    public Recepie(List<Ingridient> ingredients, List<String> comments) {
+        this.ingredients = ingredients;
+        this.comments = comments;
+    }
 
     public double getValuation() {
         return valuation;
@@ -26,17 +38,17 @@ public class Recepie {
         return recepieName;
     }
 
-    public List<String> getIngredients() {
+    public List<Ingridient> getIngredients() {
         return ingredients;
     }
-    public void setIngredients(List<String> ingredients) {
+    public void setIngredients(List<Ingridient> ingredients) {
         this.ingredients = ingredients;
     }
 
-    public boolean addIngredient(String s) {
+    public boolean addIngredient(Ingridient s) {
         return ingredients.add(s);
     }
-    public boolean removeIngredient(String s) {
+    public boolean removeIngredient(Ingridient s) {
         return ingredients.remove(s);
     }
 
